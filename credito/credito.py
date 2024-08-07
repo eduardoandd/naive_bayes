@@ -5,9 +5,9 @@ from sklearn.naive_bayes import  GaussianNB
 from sklearn.metrics import accuracy_score, confusion_matrix,classification_report
 from yellowbrick.classifier import ConfusionMatrix
 
-arquivo= 'C:/Users/edubo/Desktop/I.A/pre-processamento/credit.pkl'
-destino='C:/Users/edubo/Desktop/I.A/naive_bayes/credito/credit.pkl'
-shutil.copy(arquivo,destino)
+# arquivo= 'C:/Users/edubo/Desktop/I.A/pre-processamento/credit.pkl'
+# destino='C:/Users/edubo/Desktop/I.A/naive_bayes/credito/credit.pkl'
+# shutil.copy(arquivo,destino)
 
 with open('credit.pkl', 'rb') as f:
     X_credit_treinamento,y_credit_treinamento,x_credit_teste,y_credit_teste=pickle.load(f)

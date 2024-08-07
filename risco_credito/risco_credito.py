@@ -20,5 +20,5 @@ naive_risco_credito = GaussianNB()
 naive_risco_credito.fit(X,y) # gera a tabela de probabilidade
 
 #historia boa(0); divida alta(0); garantia nenhuma(1); >35(2)
-previsao = naive_risco_credito.predict([[0,0,1,2],[1,2,2,0]])
+pre7visao = naive_risco_credito.predict([[1,1,1,1],[1,2,2,0]])
 
